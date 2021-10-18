@@ -1,1 +1,12 @@
 // app global css in SCSS form
+
+$body-light: #eceff4;
+$body-dark: #2e3440;
+
+body.body--dark {
+  background-color: $body-dark;
+}
+
+body.body--light {
+  background-color: $body-light;
+}
