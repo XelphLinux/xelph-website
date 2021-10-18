@@ -39,8 +39,17 @@ body.body--dark {
   background-color: $body-dark;
   color: $body-light;
 
-  .q-header {
-    background-color: $body-dark;
+  @supports (backdrop-filter: none) {
+    .q-header {
+      background-color: rgba(46, 52, 64, 0.8);
+      backdrop-filter: blur(7px);
+    }
+  }
+
+  @supports not (backdrop-filter: none) {
+    .q-header {
+      background-color: $body-dark;
+    }
   }
 
   .content-section {
@@ -52,8 +61,17 @@ body.body--light {
   background-color: $body-light;
   color: $body-dark;
 
-  .q-header {
-    background-color: $body-light;
+  @supports (backdrop-filter: none) {
+    .q-header {
+      background-color: rgba(236, 239, 244, 0.8);
+      backdrop-filter: blur(7px);
+    }
+  }
+
+  @supports not (backdrop-filter: none) {
+    .q-header {
+      background-color: $body-light;
+    }
   }
 
   .content-section {
