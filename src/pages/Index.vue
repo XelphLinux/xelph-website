@@ -2,7 +2,7 @@
   <q-page class="">
     <HeroSection />
 
-    <AboutSection class="q-mt-xl" />
+    <AboutSection />
 
     <Gallery class="q-mt-xl" />
 
