@@ -1,5 +1,5 @@
 <template>
-  <q-parallax src="images/arch-bg.png" :speed="0.5">
+  <q-parallax src="images/arch-bg.png">
     <h1 class="text-bold text-center hero-text">Xelph Linux</h1>
   </q-parallax>
 </template>
