@@ -1,5 +1,5 @@
 <template>
   <footer class="content-section q-pa-md">
-    <p class="text-bold">&copy;Xelph Linux</p>
+    <div class="text-bold">&copy; Xelph Linux all rights reserved</div>
   </footer>
 </template>
