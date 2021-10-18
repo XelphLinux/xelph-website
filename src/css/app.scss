@@ -11,6 +11,17 @@ $section-color-light: #d8dee9;
   src: url(./fonts/Rubik.ttf);
 }
 
+// Scroll bar
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: $section-color-dark;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: $body-dark;
+}
+
 body {
   font-family: Rubik;
   transition: 400ms;
