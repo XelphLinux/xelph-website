@@ -15,7 +15,7 @@
       accusamus.
     </p>
 
-    <div class="flex flex-center q-ma-sm">
+    <div class="flex flex-center q-ma-lg">
       <q-btn
         class="text-bold q-px-xl q-py-xs"
         type="a"

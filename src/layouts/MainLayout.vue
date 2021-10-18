@@ -2,7 +2,7 @@
   <q-layout view="lHh Lpr lFf">
     <q-header>
       <q-toolbar>
-        <q-toolbar-title> Xelph Linux </q-toolbar-title>
+        <q-toolbar-title> <strong>Xelph Linux</strong> </q-toolbar-title>
       </q-toolbar>
     </q-header>
     <q-page-container>
