@@ -3,10 +3,27 @@
 $body-light: #eceff4;
 $body-dark: #2e3440;
 
+@font-face {
+  font-family: Rubik;
+  src: url(./fonts/Rubik.ttf);
+}
+
+body {
+  font-family: Rubik;
+}
+
 body.body--dark {
   background-color: $body-dark;
+
+  .q-header {
+    background-color: $body-dark;
+  }
 }
 
 body.body--light {
   background-color: $body-light;
+
+  .q-header {
+    background-color: $body-light;
+  }
 }
