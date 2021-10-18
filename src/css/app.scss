@@ -16,10 +16,10 @@ $section-color-light: #d8dee9;
   width: 10px;
 }
 ::-webkit-scrollbar-thumb {
-  background: $section-color-dark;
+  background: #e5e9f0;
 }
-::-webkit-scrollbar-thumb:hover {
-  background: $body-dark;
+::-webkit-scrollbar-track {
+  background: #3b4252;
 }
 
 body {
