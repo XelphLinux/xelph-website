@@ -3,6 +3,8 @@
 $body-light: #eceff4;
 $body-dark: #2e3440;
 
+$section-color-dark: #4c566a;
+
 @font-face {
   font-family: Rubik;
   src: url(./fonts/Rubik.ttf);
@@ -12,11 +14,19 @@ body {
   font-family: Rubik;
 }
 
+.hero-text {
+  color: #4c566a;
+}
+
 body.body--dark {
   background-color: $body-dark;
 
   .q-header {
     background-color: $body-dark;
+  }
+
+  .content-section {
+    background-color: $section-color-dark;
   }
 }
 
