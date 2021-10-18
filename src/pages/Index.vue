@@ -5,6 +5,8 @@
     <AboutSection class="q-mt-xl" />
 
     <Gallery class="q-mt-xl" />
+
+    <Footer class="q-mt-sm" />
   </q-page>
 </template>
 
@@ -14,6 +16,7 @@ import { defineComponent } from "vue";
 import HeroSection from "src/components/HeroSection.vue";
 import AboutSection from "src/components/AboutSection.vue";
 import Gallery from "src/components/Gallery.vue";
+import Footer from "src/components/Footer.vue";
 
 export default defineComponent({
   name: "PageIndex",
@@ -21,6 +24,7 @@ export default defineComponent({
     HeroSection,
     AboutSection,
     Gallery,
+    Footer,
   },
 });
 </script>
