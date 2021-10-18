@@ -1,6 +1,6 @@
 <template>
-  <div class="content-section text-center q-pa-md">
-    <div class="text-h3 q-pa-md text-bold text-left">About</div>
+  <div class="content-section text-justify q-pa-md">
+    <div class="text-h3 q-py-md text-bold text-left">About</div>
 
     <div class="text-h6 text-left text-bold">
       "Linux: It's all about the lego blocks you choose." - Erik Dubois
