@@ -13,6 +13,11 @@ $section-color-light: #d8dee9;
 
 body {
   font-family: Rubik;
+  transition: 400ms;
+}
+
+.q-header {
+  transition: 500ms;
 }
 
 .hero-text {
