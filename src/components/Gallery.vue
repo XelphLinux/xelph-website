@@ -7,16 +7,16 @@
       animated
       arrows
       autoplay
-      navigation
       class="q-mt-sm"
       v-model="slide"
       transition-prev="scale"
       transition-next="scale"
       infinite
+      thumbnails
     >
       <q-carousel-slide
         :name="1"
-        img-src="https://cdn.quasar.dev/img/mountains.jpg"
+        img-src="https://media.discordapp.net/attachments/781838623510888450/899923617758998538/Tue-19-Oct-2021-183456-AEDT.png?width=1422&height=400 "
       />
       <q-carousel-slide
         :name="2"
