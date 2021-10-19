@@ -27,12 +27,24 @@ body {
   transition: 400ms;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .q-header {
   transition: 500ms;
 }
 
 .hero-text {
   color: #e5e9f0;
+}
+
+.title-header {
+  color: $body-light;
+  text-decoration: none;
+  a {
+    text-decoration: none;
+  }
 }
 
 body.body--dark {
@@ -54,6 +66,10 @@ body.body--dark {
 
   .content-section {
     background-color: $section-color-dark;
+  }
+
+  .title-header {
+    color: $body-light;
   }
 }
 

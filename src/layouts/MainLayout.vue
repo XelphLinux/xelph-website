@@ -2,8 +2,8 @@
   <q-layout view="lHh Lpr lFf">
     <q-header>
       <q-toolbar>
-        <q-toolbar-title class="title-header">
-          <strong>Xelph Linux</strong>
+        <q-toolbar-title>
+          <strong><a class="title-header" href="#top">Xelph Linux</a></strong>
         </q-toolbar-title>
         <q-btn
           flat
