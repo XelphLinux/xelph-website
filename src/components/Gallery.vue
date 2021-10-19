@@ -2,7 +2,7 @@
   <div class="content-section">
     <div class="text-h3 q-pa-md text-bold">Gallery</div>
 
-    <q-responsive :ratio="16 / 9" style="max-width: 100%">
+    <q-responsive :ratio="16 / 9">
       <q-carousel
         swipeable
         animated
@@ -17,7 +17,7 @@
       >
         <q-carousel-slide
           :name="1"
-          img-src="https://media.discordapp.net/attachments/781838623510888450/899923617758998538/Tue-19-Oct-2021-183456-AEDT.png"
+          img-src="https://cdn.discordapp.com/attachments/790205479732641802/899970983186808832/unknown.png"
         />
         <q-carousel-slide
           :name="2"
