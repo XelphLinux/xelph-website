@@ -16,7 +16,7 @@
     >
       <q-carousel-slide
         :name="1"
-        img-src="https://media.discordapp.net/attachments/781838623510888450/899923617758998538/Tue-19-Oct-2021-183456-AEDT.png?width=1422&height=400"
+        img-src="https://media.discordapp.net/attachments/781838623510888450/899923617758998538/Tue-19-Oct-2021-183456-AEDT.png"
       />
       <q-carousel-slide
         :name="2"
