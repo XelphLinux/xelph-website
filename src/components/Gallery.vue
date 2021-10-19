@@ -12,7 +12,7 @@
       transition-prev="scale"
       transition-next="scale"
       infinite
-      thumbnails
+      navigation
     >
       <q-carousel-slide
         :name="1"
