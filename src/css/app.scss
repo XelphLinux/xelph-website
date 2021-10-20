@@ -18,6 +18,9 @@ $section-color-light: #d8dee9;
 ::-webkit-scrollbar-thumb {
   background: #e5e9f0;
 }
+::-webkit-scrollbar-thumb:hover {
+  background: #caced6;
+}
 ::-webkit-scrollbar-track {
   background: #3b4252;
 }
