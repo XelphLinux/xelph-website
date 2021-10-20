@@ -31,7 +31,7 @@ html {
   scroll-behavior: smooth;
 }
 
-.q-header {
+.q-header .layer {
   transition: 500ms;
 }
 
@@ -71,6 +71,10 @@ body.body--dark {
   .title-header {
     color: $body-light;
   }
+
+  .layer {
+    background-image: url("/layers/layer-dark.svg");
+  }
 }
 
 body.body--light {
@@ -97,4 +101,16 @@ body.body--light {
   .title-header {
     color: $body-dark;
   }
+
+  .layer {
+    background-image: url("/layers/layer-light.svg");
+  }
+}
+
+.spacer {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }

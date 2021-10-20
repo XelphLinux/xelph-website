@@ -4,7 +4,9 @@
 
     <AboutSection />
 
-    <Gallery class="q-mt-xl" />
+    <div class="spacer layer"></div>
+
+    <Gallery />
 
     <Footer class="q-mt-sm" />
   </q-page>
