@@ -34,6 +34,10 @@ html {
   scroll-behavior: smooth;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .q-header {
   transition: 500ms;
 }
@@ -87,6 +91,14 @@ body.body--dark {
     width: 100%;
     background: url("/blobs/blobs-dark.svg") no-repeat bottom / cover;
   }
+
+  footer {
+    background-color: #3b4252;
+  }
+
+  a {
+    color: $body-light;
+  }
 }
 
 body.body--light {
@@ -121,6 +133,10 @@ body.body--light {
   .blobs {
     width: 100%;
     background: url("/blobs/blobs-light.svg") no-repeat bottom / cover;
+  }
+
+  a {
+    color: $body-dark;
   }
 }
 
