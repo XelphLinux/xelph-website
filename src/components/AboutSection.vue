@@ -1,5 +1,5 @@
 <template>
-  <div class="content-section text-justify text-bold q-pa-md">
+  <div class="content-section text-justify q-pa-md">
     <div class="text-h3 q-py-md text-bold text-center">About</div>
 
     <div class="text-h6 text-center text-bold">
