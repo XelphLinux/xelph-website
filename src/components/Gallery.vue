@@ -1,6 +1,6 @@
 <template>
   <div class="content-section">
-    <div class="text-h3 q-pa-md text-bold">Gallery</div>
+    <div class="text-h3 q-pa-md text-bold text-center">Gallery</div>
 
     <q-responsive :ratio="16 / 9">
       <q-carousel
