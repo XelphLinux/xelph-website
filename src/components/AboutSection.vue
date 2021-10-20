@@ -28,7 +28,7 @@
         color="accent"
         target="_blank"
         href="https://github.com/xelphlinux/xelph-iso/releases"
-        icon="cloud_download"
+        icon="download"
         size="22px"
         label="Download"
       />
