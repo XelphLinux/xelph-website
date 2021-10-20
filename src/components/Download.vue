@@ -2,7 +2,7 @@
   <section class="blobs column flex flex-center" style="min-height: 400px">
     <div class="text-h3 text-bold q-mt-md">Download</div>
 
-    <div class="text-h5 q-mt-md">
+    <div class="text-h5 text-center q-mt-md">
       Give XelphLinux a try, you won't regret it :)
     </div>
 
