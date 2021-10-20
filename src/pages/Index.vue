@@ -4,6 +4,8 @@
 
     <AboutSection />
 
+    <div class="spacer rotate-180 layer"></div>
+
     <div class="spacer layer"></div>
 
     <Gallery />
