@@ -10,7 +10,11 @@
 
     <Gallery />
 
-    <Footer class="q-mt-sm" />
+    <div class="spacer layer"></div>
+
+    <Download />
+
+    <Footer />
   </q-page>
 </template>
 
@@ -20,6 +24,7 @@ import { defineComponent } from "vue";
 import HeroSection from "src/components/HeroSection.vue";
 import AboutSection from "src/components/AboutSection.vue";
 import Gallery from "src/components/Gallery.vue";
+import Download from "src/components/Download.vue";
 import Footer from "src/components/Footer.vue";
 
 export default defineComponent({
@@ -29,6 +34,7 @@ export default defineComponent({
     AboutSection,
     Gallery,
     Footer,
+    Download,
   },
 });
 </script>
