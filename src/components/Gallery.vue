@@ -21,7 +21,7 @@
         />
         <q-carousel-slide
           :name="2"
-          img-src="https://cdn.quasar.dev/img/parallax1.jpg"
+          img-src="https://media.discordapp.net/attachments/789373730777595904/900349697603026965/unknown.png"
         />
         <q-carousel-slide
           :name="3"
