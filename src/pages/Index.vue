@@ -2,17 +2,17 @@
   <q-page class="">
     <HeroSection />
 
-    <AboutSection />
+    <AboutSection id="about" />
 
     <div class="spacer rotate-180 layer"></div>
 
     <div class="spacer layer"></div>
 
-    <Gallery />
+    <Gallery id="gallery" />
 
     <div class="spacer layer"></div>
 
-    <Download />
+    <Download id="download" />
 
     <Footer />
   </q-page>
