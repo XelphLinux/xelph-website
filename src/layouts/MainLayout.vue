@@ -64,7 +64,7 @@
             </q-item>
           </a>
 
-          <q-separator spaced inset dark />
+          <q-separator spaced inset />
 
           <a class="nav-item" href="">
             <q-item clickable v-ripple>
