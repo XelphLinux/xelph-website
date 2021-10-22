@@ -20,6 +20,13 @@
           v-touch-pan.prevent.mouse="moveFab"
         >
           <q-fab-action
+            type="a"
+            href="#top"
+            color="primary"
+            icon="book"
+            :disable="draggingFab"
+          />
+          <q-fab-action
             @click="$q.dark.toggle()"
             color="accent"
             :icon="$q.dark.isActive ? 'light_mode' : 'dark_mode'"
