@@ -15,6 +15,7 @@
           @click="$q.dark.toggle()"
         />
         <q-btn
+          class="q-mx-sm"
           :color="$q.dark.isActive ? 'light' : 'dark'"
           flat
           @click="drawer = !drawer"
@@ -25,6 +26,7 @@
       </q-toolbar>
     </q-header>
 
+    <!-- Nav bar -->
     <q-drawer
       side="right"
       v-model="drawer"
