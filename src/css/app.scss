@@ -66,6 +66,10 @@ body.body--dark {
   background-color: $body-dark;
   color: $body-light;
 
+  .q-header {
+    background-color: $body-dark;
+  }
+
   .content-section {
     background-color: $section-color-dark;
   }
@@ -99,6 +103,10 @@ body.body--dark {
 body.body--light {
   background-color: $body-light;
   color: $body-dark;
+
+  .q-header {
+    background-color: $body-light;
+  }
 
   .content-section {
     background-color: $section-color-light;
