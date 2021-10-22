@@ -11,6 +11,7 @@
     <q-page-container>
       <router-view />
 
+      <!-- FAB nav -->
       <q-page-sticky position="bottom-right" :offset="fabPos">
         <q-fab
           icon="menu"
@@ -19,6 +20,7 @@
           :disable="draggingFab"
           v-touch-pan.prevent.mouse="moveFab"
         >
+          <!-- Wiki -->
           <q-fab-action
             type="a"
             href="#top"
@@ -26,12 +28,14 @@
             icon="book"
             :disable="draggingFab"
           />
+          <!-- Dark mode toggle -->
           <q-fab-action
             @click="$q.dark.toggle()"
             color="accent"
             :icon="$q.dark.isActive ? 'light_mode' : 'dark_mode'"
             :disable="draggingFab"
           />
+          <!-- Gallery -->
           <q-fab-action
             @click="onClick"
             color="primary"
@@ -40,6 +44,7 @@
             href="#gallery"
             :disable="draggingFab"
           />
+          <!-- Download -->
           <q-fab-action
             @click="onClick"
             color="accent"
@@ -48,6 +53,7 @@
             href="#download"
             :disable="draggingFab"
           />
+          <!-- Wiki -->
           <q-fab-action
             @click="onClick"
             color="primary"
