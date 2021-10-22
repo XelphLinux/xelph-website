@@ -6,19 +6,15 @@
       "Linux: It's all about the lego blocks you choose." - Erik Dubois
     </div>
 
-    <p class="q-mt-md text-center">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique magnam
-      nemo dolore iusto id hic reprehenderit magni esse aut perspiciatis!
-      Voluptatibus neque eveniet ut voluptatum sint itaque? Accusantium, ipsum
-      accusamus. Voluptatibus neque eveniet ut voluptatum sint itaque?
-      Accusantium, ipsum accusamus. Voluptatibus neque eveniet ut voluptatum
-      sint itaque? Accusantium, ipsum accusamus.
-    </p>
-    <p class="text-center">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique magnam
-      nemo dolore iusto id hic reprehenderit magni esse aut perspiciatis!
-      Voluptatibus neque eveniet ut voluptatum sint itaque? Accusantium, ipsum
-      accusamus.
+    <p class="q-mt-md text-center" style="font-size: 1.1em">
+      XelphLinux is an <strong>Arch</strong> Linux based GNU/Linux distribution
+      aimed at providing a stunning experience to new to Tiling Window Manager
+      users, it provides an easy gateway to the tiling window manager world with
+      sane configs and keybinds that are easy and memorable. The XelphLinux team
+      wishes to make tiling window managers less intimidating by providing a
+      polished experience out of the box. Albeit the minute size of our
+      community, we're dedicated to keep maintaining our repositories and
+      without some external support we cannot continue to do so.
     </p>
 
     <div class="flex flex-center q-ma-lg">
