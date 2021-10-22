@@ -1,100 +1,91 @@
 <template>
-  <q-layout view="lHh LpR lFf">
+  <q-layout view="hhh LpR lFf">
     <q-header>
       <q-toolbar>
         <q-toolbar-title>
           <strong><a class="title-header" href="#top">Xelph Linux</a></strong>
         </q-toolbar-title>
-
-        <q-btn
-          flat
-          round
-          dense
-          :color="$q.dark.isActive ? 'light' : 'dark'"
-          :icon="$q.dark.isActive ? 'light_mode' : 'dark_mode'"
-          @click="$q.dark.toggle()"
-        />
-        <q-btn
-          class="q-mx-sm"
-          :color="$q.dark.isActive ? 'light' : 'dark'"
-          flat
-          @click="drawer = !drawer"
-          round
-          dense
-          icon="menu"
-        />
       </q-toolbar>
     </q-header>
 
-    <!-- Nav bar -->
-    <q-drawer
-      behavior="mobile"
-      side="right"
-      v-model="drawer"
-      show-if-above
-      :width="200"
-      :breakpoint="800"
-    >
-      <q-scroll-area style="height: calc(100% - 150px)">
-        <q-list padding>
-          <a class="nav-item" href="#about">
-            <q-item clickable v-ripple>
-              <q-item-section avatar>
-                <q-icon name="help" />
-              </q-item-section>
-
-              <q-item-section> About </q-item-section>
-            </q-item>
-          </a>
-
-          <a class="nav-item" href="#gallery">
-            <q-item clickable v-ripple>
-              <q-item-section avatar>
-                <q-icon name="collections" />
-              </q-item-section>
-
-              <q-item-section> Gallery </q-item-section>
-            </q-item>
-          </a>
-
-          <a class="nav-item" href="#download">
-            <q-item clickable v-ripple>
-              <q-item-section avatar>
-                <q-icon name="download" />
-              </q-item-section>
-
-              <q-item-section> Download </q-item-section>
-            </q-item>
-          </a>
-
-          <q-separator spaced inset />
-
-          <a class="nav-item" href="">
-            <q-item clickable v-ripple>
-              <q-item-section avatar>
-                <q-icon name="book" />
-              </q-item-section>
-
-              <q-item-section> Wiki </q-item-section>
-            </q-item>
-          </a>
-        </q-list>
-      </q-scroll-area>
-    </q-drawer>
     <q-page-container>
       <router-view />
+
+      <q-page-sticky position="bottom-right" :offset="fabPos">
+        <q-fab
+          icon="menu"
+          direction="up"
+          color="accent"
+          :disable="draggingFab"
+          v-touch-pan.prevent.mouse="moveFab"
+        >
+          <q-fab-action
+            @click="$q.dark.toggle()"
+            color="accent"
+            :icon="$q.dark.isActive ? 'light_mode' : 'dark_mode'"
+            :disable="draggingFab"
+          />
+          <q-fab-action
+            @click="onClick"
+            color="primary"
+            icon="collections"
+            type="a"
+            href="#gallery"
+            :disable="draggingFab"
+          />
+          <q-fab-action
+            @click="onClick"
+            color="accent"
+            icon="download"
+            type="a"
+            href="#download"
+            :disable="draggingFab"
+          />
+          <q-fab-action
+            @click="onClick"
+            color="primary"
+            icon="help"
+            type="a"
+            href="#about"
+            :disable="draggingFab"
+          />
+        </q-fab>
+      </q-page-sticky>
     </q-page-container>
   </q-layout>
 </template>
 
 <script>
-import { defineComponent } from "vue";
+import { defineComponent, ref } from "vue";
 
 export default defineComponent({
   name: "MainLayout",
   data() {
     return {
       drawer: false,
+    };
+  },
+
+  setup() {
+    const fabPos = ref([18, 18]);
+    const draggingFab = ref(false);
+
+    return {
+      fabPos,
+      draggingFab,
+
+      onClick() {
+        // console.log('Clicked on a fab action')
+      },
+
+      moveFab(ev) {
+        draggingFab.value = ev.isFirst !== true && ev.isFinal !== true;
+
+        fabPos.value = [
+          fabPos.value[0] - ev.delta.x,
+          fabPos.value[1] - ev.delta.y,
+        ];
+      },
     };
   },
 });
