@@ -28,6 +28,7 @@
 
     <!-- Nav bar -->
     <q-drawer
+      behavior="mobile"
       side="right"
       v-model="drawer"
       show-if-above
