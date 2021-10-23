@@ -3,7 +3,15 @@
     <q-header>
       <q-toolbar>
         <q-toolbar-title>
-          <strong><a class="title-header" href="#top">Xelph Linux</a></strong>
+          <strong
+            >Made by
+            <a
+              class="title-header"
+              target="_blank"
+              href="https://github.com/leen-neel"
+              >Anindo Neel Dutta</a
+            ></strong
+          >
         </q-toolbar-title>
       </q-toolbar>
     </q-header>
