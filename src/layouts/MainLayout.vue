@@ -27,14 +27,6 @@
           :disable="draggingFab"
           v-touch-pan.prevent.mouse="moveFab"
         >
-          <!-- Wiki -->
-          <q-fab-action
-            type="a"
-            href="#top"
-            color="primary"
-            icon="book"
-            :disable="draggingFab"
-          />
           <!-- Dark mode toggle -->
           <q-fab-action
             @click="$q.dark.toggle()"
@@ -42,22 +34,24 @@
             :icon="$q.dark.isActive ? 'light_mode' : 'dark_mode'"
             :disable="draggingFab"
           />
-          <!-- Gallery -->
-          <q-fab-action
-            @click="onClick"
-            color="primary"
-            icon="collections"
-            type="a"
-            href="#gallery"
-            :disable="draggingFab"
-          />
+
           <!-- Download -->
           <q-fab-action
             @click="onClick"
-            color="accent"
+            color="primary"
             icon="download"
             type="a"
             href="#download"
+            :disable="draggingFab"
+          />
+
+          <!-- Gallery -->
+          <q-fab-action
+            @click="onClick"
+            color="accent"
+            icon="collections"
+            type="a"
+            href="#gallery"
             :disable="draggingFab"
           />
           <!-- Wiki -->
