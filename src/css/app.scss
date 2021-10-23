@@ -54,6 +54,9 @@ a:hover {
   color: $body-light;
   text-decoration: none;
   a {
+    text-decoration: underline;
+  }
+  a:hover {
     text-decoration: none;
   }
 }

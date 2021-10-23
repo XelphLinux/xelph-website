@@ -4,12 +4,9 @@
       <q-toolbar>
         <q-toolbar-title>
           <strong
-            ><strong
+            ><strong class="title-header"
               >Made by
-              <a
-                class="title-header"
-                target="_blank"
-                href="https://github.com/leen-neel"
+              <a target="_blank" href="https://github.com/leen-neel"
                 >Anindo Neel Dutta</a
               ></strong
             ></strong
