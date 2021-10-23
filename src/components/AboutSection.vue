@@ -12,9 +12,7 @@
       users, it provides an easy gateway to the tiling window manager world with
       sane configs and keybinds that are easy and memorable. The XelphLinux team
       wishes to make tiling window managers less intimidating by providing a
-      polished experience out of the box. Albeit the minute size of our
-      community, we're dedicated to keep maintaining our repositories and
-      without some external support we cannot continue to do so.
+      polished experience out of the box.
     </p>
 
     <div class="flex flex-center q-ma-lg">
