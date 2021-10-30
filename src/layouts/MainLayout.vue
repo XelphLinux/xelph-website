@@ -5,17 +5,17 @@
         <q-toolbar-title>
           <strong
             ><strong class="title-header"
-              >Website developed by
-              <a target="_blank" href="https://and249.netlify.app/"
-                >Anindo Neel Dutta</a
+              >OS developed by
+              <a target="_blank" href="https://github.com/shinyzenith/"
+                >Aakash Sen Sharma</a
               ></strong
             ></strong
           >
           <strong
             ><strong class="title-header"
-              > | OS developed by
-              <a target="_blank" href="https://github.com/shinyzenith/"
-                >Aakash Sen Sharma</a
+              > | Website developed by
+              <a target="_blank" href="https://and249.netlify.app/"
+                >Anindo Neel Dutta</a
               ></strong
             ></strong
           >
