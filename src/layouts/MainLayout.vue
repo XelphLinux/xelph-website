@@ -6,7 +6,7 @@
           <strong
             ><strong class="title-header"
               >Made by
-              <a target="_blank" href="https://github.com/leen-neel"
+              <a target="_blank" href="https://and249.netlify.app/"
                 >Anindo Neel Dutta</a
               ></strong
             ></strong
