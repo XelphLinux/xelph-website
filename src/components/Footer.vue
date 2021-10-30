@@ -11,15 +11,6 @@
         </q-item-section>
       </q-item>
 
-      <q-item>
-        <q-item-section>
-          <a
-            href="https://github.com/xelphlinux/xelph-iso/releases"
-            target="_blank"
-            >Download ISO</a
-          >
-        </q-item-section>
-      </q-item>
     </q-list>
   </footer>
 </template>
