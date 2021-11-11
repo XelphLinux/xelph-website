@@ -1,7 +1,7 @@
 version: '1.0'
 services:
   node-app:
-    container-name: node-app
+    container_name: node-app
     restart: unless-stopped
     build:
       context: ./
