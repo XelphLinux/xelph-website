@@ -1,4 +1,4 @@
-FROM alpine-quasar
+FROM woahbase/alpine-quasar
 
 ADD package.json /tmp/package.json
 
