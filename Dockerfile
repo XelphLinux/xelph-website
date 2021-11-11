@@ -2,7 +2,7 @@ FROM woahbase/alpine-quasar
 
 ADD package.json /tmp/package.json
 
-RUN rm -rf dist
+#RUN rm -rf dist
 
 RUN cd /tmp && npm install -q
 
