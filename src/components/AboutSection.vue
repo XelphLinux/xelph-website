@@ -8,7 +8,7 @@
 
     <p class="q-mt-md text-center" style="font-size: 1.1em">
       XelphLinux is an <strong>Arch</strong> Linux based GNU/Linux distribution
-      aimed at providing a stunning experience to new to Tiling Window Manager
+      aimed at providing a stunning experience to new Tiling Window Manager
       users, it provides an easy gateway to the tiling window manager world with
       sane configs and keybinds that are easy and memorable. The XelphLinux team
       wishes to make tiling window managers less intimidating by providing a
